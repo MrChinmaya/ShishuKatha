@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string-array name="Number_of_Childrens">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+
+    <string-array name="Age">
+        <item>0-3</item>
+        <item>3-5</item>
+        <item>5-8</item>
+        <item>8-10</item>
+
+
+    </string-array>
+
+    <string-array name="Rating">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+</resources>

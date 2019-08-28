@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/secondpage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="shishukatha.com.shishukatha_final.SplashMessage">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="70dp"
+        android:textColor="#f7730e"
+        android:textSize="42dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/msg1"
+        android:textSize="17dp"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="51dp"
+        android:textColor="@color/GentleBlack"
+        />
+
+
+
+    <ImageButton
+        android:id="@+id/continuebutton"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/round"
+        android:src="@drawable/continuebutton" />
+
+    <ImageButton
+        android:id="@+id/subscribe"
+        android:layout_width="145dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round"
+        app:srcCompat="@drawable/subscribe"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+</RelativeLayout>

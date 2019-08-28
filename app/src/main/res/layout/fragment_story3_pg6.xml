@@ -1,0 +1,44 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/s3p6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="shishukatha.com.shishukatha_final.Fragments.Story3_pg6">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageButton
+        android:id="@+id/imageButton14"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round"
+        app:srcCompat="@drawable/prev"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="60dp"
+        android:layout_height="58dp"
+        android:background="@drawable/round"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:srcCompat="@drawable/next"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageButton
+        android:id="@+id/startmenu36"
+        android:layout_width="85dp"
+        android:layout_height="81dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="272dp"
+        android:background="@drawable/round"
+        android:src="@drawable/menuicon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

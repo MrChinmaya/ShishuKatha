@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:paddingBottom="60dp"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/GentleBlack"
+        android:orientation="vertical"
+        tools:context="shishukatha.com.shishukatha_final.StoryMenu">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:padding="16dp">
+
+                <com.andexert.library.RippleView
+                    android:id="@+id/rippleview1"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="5dp"
+                    android:layout_centerHorizontal="true"
+                    rv_centered="true"
+                    app:rv_alpha="200"
+                    app:rv_framerate="10"
+                    app:rv_zoom="true"
+                    app:rv_zoomScale="1.2"
+                    app:rv_color="@color/Aquamarine">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image1"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_marginTop="20dp"
+                        android:src="@drawable/story1copy"
+                        android:layout_centerHorizontal="true"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#FF000000"/>
+                </com.andexert.library.RippleView>
+
+                <TextView
+                    android:id="@+id/Storytitle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="205dp"
+                    android:textSize="20sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/White"/>
+
+                <TextView
+                    android:id="@+id/Storysubtitle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="230dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <TextView
+                    android:id="@+id/Authorstory1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="245dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <RatingBar
+                    android:id="@+id/story1rating"
+                    android:defaultFocusHighlightEnabled="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="260dp"
+                    android:layout_centerHorizontal="true" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image2"
+                        android:layout_width="180dp"
+                        android:layout_height="180dp"
+                        android:layout_marginTop="320dp"
+                        android:src="@drawable/story2copy"
+                        android:layout_centerHorizontal="true"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:id="@+id/Storytitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="505dp"
+                    android:textSize="20sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/White"/>
+
+                <TextView
+                    android:id="@+id/Storysubtitle2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="530dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <TextView
+                    android:id="@+id/Authorstory2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="545dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <RatingBar
+                    android:id="@+id/story2rating"
+                    android:defaultFocusHighlightEnabled="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="560dp"
+                    android:layout_centerHorizontal="true" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image3"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="620dp"
+                    android:src="@drawable/story3copy"
+                    android:layout_centerHorizontal="true"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:id="@+id/Storytitle3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="805dp"
+                    android:textSize="20sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/White"/>
+
+                <TextView
+                    android:id="@+id/Storysubtitle3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="830dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <TextView
+                    android:id="@+id/Authorstory3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="845dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <RatingBar
+                    android:id="@+id/story3rating"
+                    android:defaultFocusHighlightEnabled="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="860dp"
+                    android:layout_centerHorizontal="true" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image4"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="920dp"
+                    android:src="@drawable/story4copy"
+                    android:layout_centerHorizontal="true"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:id="@+id/Storytitle4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1105dp"
+                    android:textSize="20sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/White"/>
+
+                <TextView
+                    android:id="@+id/Storysubtitle4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1130dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <TextView
+                    android:id="@+id/Authorstory4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1145dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <RatingBar
+                    android:id="@+id/story4rating"
+                    android:defaultFocusHighlightEnabled="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1160dp"
+                    android:layout_centerHorizontal="true" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image5"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="1220dp"
+                    android:src="@drawable/story5copy"
+                    android:layout_centerHorizontal="true"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:id="@+id/Storytitle5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1405dp"
+                    android:textSize="20sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/White"/>
+
+                <TextView
+                    android:id="@+id/Storytitle5_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1425dp"
+                    android:textSize="20sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/White"/>
+
+                <TextView
+                    android:id="@+id/Storysubtitle5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1450dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <TextView
+                    android:id="@+id/Authorstory5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1465dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <RatingBar
+                    android:id="@+id/story5rating"
+                    android:defaultFocusHighlightEnabled="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1480dp"
+                    android:layout_centerHorizontal="true" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image6"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="1520dp"
+                    android:src="@drawable/story6copy"
+                    android:layout_centerHorizontal="true"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+
+                <TextView
+                    android:id="@+id/Storytitle6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1705dp"
+                    android:textSize="20sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/White"/>
+
+                <TextView
+                    android:id="@+id/Storysubtitle6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1730dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <TextView
+                    android:id="@+id/Authorstory6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1745dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <RatingBar
+                    android:id="@+id/story6rating"
+                    android:defaultFocusHighlightEnabled="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1760dp"
+                    android:layout_centerHorizontal="true" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image7"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="1820dp"
+                    android:src="@drawable/story7copy"
+                    android:layout_centerHorizontal="true"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:id="@+id/Storytitle7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2005dp"
+                    android:textSize="20sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/White"/>
+
+                <TextView
+                    android:id="@+id/Storysubtitle7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2030dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <TextView
+                    android:id="@+id/Authorstory7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2045dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <RatingBar
+                    android:id="@+id/story7rating"
+                    android:defaultFocusHighlightEnabled="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2060dp"
+                    android:layout_centerHorizontal="true"
+                    />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image8"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:layout_marginTop="2120dp"
+                    android:src="@drawable/story8copy"
+                    android:layout_centerHorizontal="true"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#FF000000"/>
+
+                <TextView
+                    android:id="@+id/Storytitle8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2305dp"
+                    android:textSize="20sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@color/White"/>
+
+                <TextView
+                    android:id="@+id/Storysubtitle8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2330dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <TextView
+                    android:id="@+id/Authorstory8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2345dp"
+                    android:textSize="15sp"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#e67300"/>
+
+                <RatingBar
+                    android:id="@+id/story8rating"
+                    android:defaultFocusHighlightEnabled="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2360dp"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <com.bigscreen.iconictabbar.view.IconicTabBar
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:barBackground="#4b5d7a"
+        app:tabDefaultColor="#e3e5e8"
+        app:tabFromMenu="@menu/menu_bottom_bar"
+        app:tabSelectedColor="#dbf22b" />
+
+
+</RelativeLayout>

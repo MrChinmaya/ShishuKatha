@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/PapayaWhip"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_gravity="left"
+        android:textSize="30sp"
+        android:textStyle="normal"
+        android:textColor="@color/Fuchsia"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy Full Version for more" />
+
+    <ImageButton
+        android:id="@+id/buy"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round"
+        android:src="@drawable/buy" />
+
+    <ImageButton
+        android:id="@+id/cancel"
+        android:layout_width="117dp"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round"
+        android:src="@drawable/cancel" />
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile_back"
+    tools:context="shishukatha.com.shishukatha_final.Profile">
+
+    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/profilepic"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/name_profile"
+        android:textSize="28sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/no_childrens"
+        android:text="@string/number_of_childs"
+        android:textSize="19sp"
+        android:textColor="@color/Navy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="90dp"
+        />
+
+    <TextView
+        android:id="@+id/age_group"
+        android:text="@string/Age"
+        android:textSize="19sp"
+        android:textColor="@color/Navy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="120dp"
+        />
+
+    <nl.dionsegijn.steppertouch.StepperTouch
+        android:id="@+id/stepperTouch"
+        android:layout_width="68dp"
+        android:layout_height="25dp"
+        app:stepperTextSize="5sp"
+        android:layout_marginTop="323dp"
+        android:layout_marginStart="230dp"/>
+
+    <nl.dionsegijn.steppertouch.StepperTouch
+        android:id="@+id/stepperTouch1"
+        android:layout_width="68dp"
+        android:layout_height="25dp"
+        app:stepperTextSize="5sp"
+        android:layout_marginTop="353dp"
+        android:layout_marginStart="160dp"/>
+
+    <com.spark.submitbutton.SubmitButton
+        android:id="@+id/profile_update"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Update"
+        android:layout_marginTop="415dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/gray"
+        app:sub_btn_background="@color/white"
+        app:sub_btn_duration="3000"
+        app:sub_btn_line_color="@color/green"
+        app:sub_btn_ripple_color="@color/green"
+        app:sub_btn_tick_color="@color/white" />
+</RelativeLayout>

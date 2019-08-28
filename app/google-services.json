@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "434418495554",
+    "project_id": "firebase-shishukatha"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434418495554:android:e2e29cd11976f5e0",
+        "android_client_info": {
+          "package_name": "shishukatha.com.shishukatha_final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434418495554-e447emv3oms91gtisi17p1qt03cve69c.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "434418495554-d4lh8pra2h57e74ukem0aote42tlffji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "shishukatha.com.shishukatha_final",
+            "certificate_hash": "bd5fdd872177a139ce032f59c1e6b1176ef04a24"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT9gBYCSONi2DTD-qC9hB5vMaupoJusRM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

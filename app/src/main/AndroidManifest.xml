@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="shishukatha.com.shishukatha_final">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        tools:replace="android:allowBackup"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".Splash" />
+        <activity
+            android:name=".SplashMessage"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Profile"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".StoryMenu"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".Menu"
+            android:launchMode="singleInstance"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan" />
+        <activity
+            android:name=".StoryActivity.Story1"
+            android:noHistory="true"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".StoryActivity.Story2"
+            android:noHistory="true"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".StoryActivity.Story3"
+            android:noHistory="true"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".StoryActivity.Story4"
+            android:noHistory="true"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".StoryActivity.Story5"
+            android:noHistory="true"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".StoryActivity.Story6"
+            android:noHistory="true"
+            android:parentActivityName=".Menu" />
+        <activity
+            android:name=".StoryActivity.Story7"
+            android:noHistory="true"
+            android:parentActivityName=".Menu2" />
+        <activity
+            android:name=".StoryActivity.Story8"
+            android:noHistory="true"
+            android:parentActivityName=".Menu2" />
+        <activity
+            android:name=".Feedback"
+            android:noHistory="true"
+            android:parentActivityName=".Menu2" />
+        <activity
+            android:name=".Admin"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".Manage_App_Rates" />
+        <activity android:name=".ShowRating"></activity>
+    </application>
+
+</manifest>
